@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['simplewebcal.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
     datas=[],

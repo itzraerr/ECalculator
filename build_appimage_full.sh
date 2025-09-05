@@ -33,7 +33,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt pyinstaller pillow
 
 echo "Running PyInstaller (onefile)..."
-pyinstaller --noconfirm --clean --onefile --name "$PYINSTALLER_NAME" simplewebcal.py
+pyinstaller --noconfirm --clean --onefile --name "$PYINSTALLER_NAME" main.py
 
 if [ ! -f "dist/${PYINSTALLER_NAME}" ]; then
   echo "PyInstaller did not produce expected binary at dist/${PYINSTALLER_NAME}" >&2

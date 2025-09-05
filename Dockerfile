@@ -11,4 +11,4 @@ RUN python -m pip install --no-cache-dir -r requirements.txt
 
 ENV DISPLAY=:99
 
-CMD ["/bin/bash", "-c", "Xvfb :99 -screen 0 1024x768x24 & python3 simplewebcal.py"]
+CMD ["/bin/bash", "-c", "Xvfb :99 -screen 0 1024x768x24 & python3 main.py"]

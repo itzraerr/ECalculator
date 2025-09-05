@@ -25,7 +25,7 @@ pip install -r requirements.txt
 3. Run the app (browser mode by default if desktop runtime is unavailable)
 
 ```bash
-python simplewebcal.py
+python main.py
 ```
 
 Desktop runtime (preferred)
