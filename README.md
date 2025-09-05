@@ -102,6 +102,10 @@ Questions or next steps
 - Want me to replace the placeholder icon used in the AppImage with a designed icon? I can add SVG/PNG assets.
 - Want a CI script to build and upload the AppImage automatically? I can add a GitHub Actions workflow.
 
+License
+
+This project is released under the MIT License. See `LICENSE` for details.
+
 Desktop runtime (preferred)
 
 To run the native desktop runtime (gives a native window), install mpv/libmpv on your system first (Ubuntu/Debian):
