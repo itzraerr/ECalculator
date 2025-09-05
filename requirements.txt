@@ -1,0 +1,4 @@
+flet
+sympy
+pillow
+pyinstaller
